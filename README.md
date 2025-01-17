@@ -42,7 +42,7 @@ Here are some resources that have been instrumental in my journey:
 3. **Courses:**
    - [AWS SkillBuilder](https://explore.skillbuilder.aws/)
    - [Udemy](https://www.udemy.com/)
-4. **AWS Free Tier:** [https://aws.amazon.com/free/](https://aws.amazon.com/free/)
+4. **AWS Free Tier:** [mailto:https://aws.amazon.com/free/](https://aws.amazon.com/free/)
 
 ## How to Use This Repository
 
