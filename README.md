@@ -59,7 +59,6 @@ Here are some resources that have been instrumental in my journey:
 
 Feel free to reach out if you have questions or want to connect:
 
-- **Email:** [E-mail](adamgemechu@gmail.com)
 - **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/gemechugesifeta/)
 
 ---
