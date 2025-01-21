@@ -11,7 +11,7 @@
 -- Some AWS Services are scoped, i.e are not accessible from certain regions.
 --  Availability Zones-group of data centers with redundant power, network, and compute services
 --  data centers
-## ** Consideration while selecting regions**
+## **Consideration while selecting regions**
 - compliance
 - latency
 - cost
