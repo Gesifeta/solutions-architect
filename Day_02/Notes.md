@@ -29,6 +29,7 @@ The actions of IAM user, role, groups are bounded by policies.
 ### **Hands-On Tasks:**
 - [ ] Create an IAM user and group with specific policies.
 - [ ] Test access permissions using an IAM role.
+- [ ] Create MFA for user accounts
 
 ---
 
