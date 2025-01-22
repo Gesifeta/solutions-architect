@@ -27,6 +27,7 @@ The actions of IAM user, role, groups are bounded by policies.
 - STS is provides temporary credentials that include access key id,secret access key, sessionToken,expiry to respected services. The principal will assume role based on 
 - Trust policy: which controls who can assume the role(sts:AssumeRole)
 - Permission policy: this can be identity based or resource based policy.
+---
 **Identity based policy:** Is a JSON based policy controls what an Identity can do, to what resource, and in which condition.
 [ ] Inline policy
 [ ] Managed policy
