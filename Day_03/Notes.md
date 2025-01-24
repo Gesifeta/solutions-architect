@@ -50,7 +50,7 @@ IP(Interent protocol) address identifies devices over the network. I AWS , there
 ---
 **Bastion Server**:
 It is possible to connect to private servers through publicly availbale servers called bastion/hopper. 
-- Agent forwarding is used to connect to private server from bastion.
+- Agent forwarding is used to connect to private server from bastion.Because, there is no way security credential on bastion server will be accessible on the target connection.
 - For MacOS ssh-add -K key.PEM(on local machine)
 - For Linux ssh-add -L key.PEM(on local machine)
 ---
@@ -61,7 +61,12 @@ to connect to the server the bastion server
 --- 
 to connect to the private server from the bastion
 - ssh address of the private server
-
+---
+**Nitro Instances**: Are a next generation AWS underlying infrastructure for EC2.
+- Are Near bare metal performances
+- benefits include performance, security and innovation
+- Elastic NetworK Adaptar and Elastic Fabric Adapter are based on Nitro architecture
+- works only with supported Instance types.
 ### **Resources:**
 
 - [EC2 Overview](https://aws.amazon.com/ec2/)
