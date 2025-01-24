@@ -42,8 +42,8 @@ IP(Interent protocol) address identifies devices over the network. I AWS , there
 **Bastion Server**:
 It is possible to connect to private servers through publicly availbale servers called bastion/hopper. 
 - Agent forwarding is used to connect to private server from bastion.
-- For MacOS ssh-add -K key.PEM
-- For Linux ssh-add -L key.PEM
+- For MacOS ssh-add -K key.PEM(on local machine)
+- For Linux ssh-add -L key.PEM(on local machine)
 --
 to connect to the server the bastion server
 - ssh -A address of the server
