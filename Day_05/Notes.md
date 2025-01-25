@@ -1,23 +1,3 @@
-## **Day 5: Load Balancing and Auto Scaling**
-### **Key Objectives:**
-- Study ELB types, Auto Scaling Groups (ASGs), and configurations.
-- Hands-on: Set up an ASG with a load balancer.
-
-### **Key Concepts Learned:**
-- [ ] Elastic Load Balancing (ELB) distributes incoming traffic across multiple targets.
-- [ ] Auto Scaling adjusts resources based on demand.
-
-### **Resources:**
-- [Elastic Load Balancing Documentation](https://aws.amazon.com/elasticloadbalancing/)
-- [Tutorial: Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/getting-started-with-as.html)
-
-### **Hands-On Tasks:**
-- [ ] Set up an Auto Scaling Group (ASG) with minimum and maximum instance limits.
-- [ ] Attach an Elastic Load Balancer (ELB) to distribute traffic.
-- [ ] Test scaling policies by simulating high traffic.
-# Notes: Days 6–30
-
-## **Days 6–10: Networking and Storage**
 
 ### **Days 6–7: Amazon Virtual Private Cloud (VPC)**
 #### **Key Objectives:**
