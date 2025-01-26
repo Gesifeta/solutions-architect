@@ -28,7 +28,8 @@
 - WAF
 - Sheild
 ---
-**EC2 Auto Scaling**: Auto Scaling adjusts resources based on demand.
+**EC2 Auto Scaling**: Auto Scaling adjusts resources based on demand. 
+- to use Auto Scaling, launch templates are required.
 - its primary purpose is to elastically launch and terminates EC2 instances.
 
 ### **Resources:**
@@ -37,7 +38,6 @@
 - [Tutorial: Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/getting-started-with-as.html)
 
 ### **Hands-On Tasks:**
-
 - [ ] Set up an Auto Scaling Group (ASG) with minimum and maximum instance limits.
 - [ ] Attach an Elastic Load Balancer (ELB) to distribute traffic.
 - [ ] Test scaling policies by simulating high traffic.
