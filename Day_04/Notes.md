@@ -31,7 +31,12 @@
 **EC2 Auto Scaling**: Auto Scaling adjusts resources based on demand. 
 - to use Auto Scaling, launch templates are required.
 - its primary purpose is to elastically launch and terminates EC2 instances.
-
+---
+**Scaling Policies**
+- Dynamic scaling: uses pre-defined metrics to scale-in/out. It uses real data metrics(CPU, Network-in/out..).
+- [ ] Target scaling
+- Predictive scaling: Uses historically data, and uses this historical data ahead
+- Step scaling: Scales on larger number based on defined steps, when the target values have reached. cpu@60% 2 units, cpu@80% 4 units ...
 ### **Resources:**
 
 - [Elastic Load Balancing Documentation](https://aws.amazon.com/elasticloadbalancing/)
@@ -41,3 +46,4 @@
 - [ ] Set up an Auto Scaling Group (ASG) with minimum and maximum instance limits.
 - [ ] Attach an Elastic Load Balancer (ELB) to distribute traffic.
 - [ ] Test scaling policies by simulating high traffic.
+- [ ] Use query string to route trafic.
