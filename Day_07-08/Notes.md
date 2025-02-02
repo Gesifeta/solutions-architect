@@ -57,7 +57,6 @@
 - [ ] Subnets are logical partitions of a VPC that enable resource segmentation. We use subnets to place resources like EC2, RDS , ECS.
 - [ ] Subnet is created from CIDR and the address should not overlap.
 - [ ] Route tables define traffic routing rules within a VPC.
-- [ ]
 
 ## Security in VPC
 
@@ -92,7 +91,7 @@ Some some times we might want to connect from the private subnet to othe service
 
 ---
 
-- Interface designed to connect to services like CloudFormation, CodeDeploy,PrivateLink
+- Interface designed to connect to services like CloudFormation, CodeDeploy, PrivateLink
 - Uses Elastic IP.(ENI)
 - DNS entry to redirect trafcic
 - uses security group
