@@ -61,7 +61,7 @@
 
 ## Security in VPC
 
-## There are broadly two security features integrated with VPC. These are:
+There are broadly two security features integrated with VPC. These are:
 
 ### **Network ACLs:**
 
@@ -86,7 +86,7 @@ It is a service that connects different VPC with a region or different regions.
 
 ## VPC Endpoints
 
-## Some some times we might want to connect from the private subnet to othe services on the public on AWS like S3, Dynamodb. In this case VPC Endpoints are used to privately connect to public resources with out traversing the internet. There are two types of VPC Endpoints:
+Some some times we might want to connect from the private subnet to othe services on the public on AWS like S3, Dynamodb. In this case VPC Endpoints are used to privately connect to public resources with out traversing the internet. There are two types of VPC Endpoints:
 
 ### **Interface Endpoints**
 
