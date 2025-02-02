@@ -1,18 +1,27 @@
 
-## **Day 6: AWS Organizations and Control Tower**
-### **Key Objectives:**
-- Study, AWS Organizations, Service Control Policy(SCP), Landing Zones, and configurations.
-- Hands-on: Set up AWS Organizations, Landing Zones, Assume Roles.
+### **Days 6–7: Amazon Virtual Private Cloud (VPC)**
+#### **Key Objectives:**
+- Learn about subnets, route tables, and gateways.
+- Hands-on: Create a custom VPC with public and private subnets.
 
-### **Key Concepts Learned:**
--  AWS organizations a service that collect, create, organize accounts into an organizations and centrally manage them.
-- Auto Scaling adjusts resources based on demand.
-- [ ] Consolidated billing- use a management account for all other billings.
-- [ ] All services - It helps companies using AWS organization to get all services(like SCP, SSO)
-- SCPs are applied at OUs, and the permessions goes down to children.
+#### **Key Concepts Learned:**
+- [ ] It is a building block of AWS Cloud infrastructure. VPC allows for logically isolated network environments within AWS.
+- The default VPC IP address is 172.31.0.0/16
+### **Classless Interdomain Range(CIDR)
+- Is used to increase number of networks and hosts in a given IP range. It is based on the VPC IP . There should not be overlapping CIDRs
+- [ ] Subnets are logical partitions of a VPC that enable resource segmentation. We use subnets to place resources like EC2, RDS , ECS.
 
+- [ ] Route tables define traffic routing rules within a VPC.
+- [ ] 
 
-### **Hands-On Tasks:**
-- [ ] Setup Organization and create Organization units.
-- [ ] Attach attach SCP and test.
-- [ ] setup Landing Zones.
+#### **Resources:**
+- [VPC Overview](https://aws.amazon.com/vpc/)
+- [Tutorial: Create a VPC](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-getting-started.html)
+
+#### **Hands-On Tasks:**
+- [ ] Create a custom VPC with one public and one private subnet.
+- [ ] Configure an internet gateway and NAT gateway.
+- [ ] Test connectivity between subnets.
+
+---
+
