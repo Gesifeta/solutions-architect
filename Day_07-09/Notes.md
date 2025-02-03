@@ -116,5 +116,7 @@ Some some times we might want to connect from the private subnet to othe service
 - [ ] Create a custom VPC with one public and one private subnet.
 - [ ] Configure an internet gateway and NAT gateway.
 - [ ] Test connectivity between subnets.
+- Note: to connect ssh -k key
+
 
 ---
