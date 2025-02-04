@@ -1,5 +1,5 @@
 
-### **Days 10–10: Simple Storage Service (S3)**
+### **Days 10–11: Simple Storage Service (S3)**
 #### **Key Objectives:**
 - Study bucket policies, versioning, and lifecycle rules.
 - Hands-on: Configure S3 bucket policies and versioning.
