@@ -53,6 +53,7 @@ Depending on specific use cases AWS offers around 6 classes of S3 Storage. The s
 - [ ] Create an S3 bucket and enable versioning.
 - [ ] Define a bucket policy to allow public read access for specific objects.
 - [ ] Implement lifecycle rules to transition objects to Glacier.
+- [ ] Integrate SNS to deliver message to subscribers through email
 
 ---
 

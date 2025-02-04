@@ -1,0 +1,30 @@
+// Write bucket policy that denies unencrypted upload
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "DenyUnencryptedUpload",
+      "Action": "s3:PutObject",
+      "Effect": "Deny",
+      "Resource": "XXXXXXXXXXXXXXXXXXXXXXXX",
+      "Condition": {
+        "StringNotEquals": {
+          "s3:x-amz-server-side-encryption": "AES256"
+        }
+      },
+      "Principal": "*"
+    },
+    {
+        "Sid": "DenyUnencryptedConnection",
+        "Action": "s3:getObject*",
+        "Effect": "Deny",
+        "Resource": "XXXXXXXXXXXXXXXXXXXXXXXX",
+        "Condition": {
+          "Bool": {
+            "aws:SecureTransport": "false"
+          }
+        },
+        "Principal": "*"
+      }
+  ]
+}
