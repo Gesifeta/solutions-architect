@@ -21,6 +21,11 @@
 - It is an intelligent DNS service providing routing, failover, and health checks.
 - New domain, domain transfers, and DNS Records are some of its services
 
+---
+
+notes:
+-- to include ssl certificate --> dont forget to include custom domain name in the cloudFront distribution.
+
 #### **Resources:**
 
 - [CloudFront Overview](https://aws.amazon.com/cloudfront/)
