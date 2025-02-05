@@ -24,7 +24,12 @@
 - [ ] persistant storage volume
 - [ ] can be detached and attached to other instances
 
-
+### **ELastic File Storage(EFS)**
+- EFS is performannt file based storage design for linux systems
+- Unlike EBS , EFS can be attached to thousands of instances
+- Automatically scales up and down
+- [ ] EFS Fx For windows- is for window based file system
+- [ ] EFS Fx Lustre - high performance, for HPC compatible with S3.
 #### **Resources:**
 
 - [EBS Documentation](https://aws.amazon.com/ebs/)
